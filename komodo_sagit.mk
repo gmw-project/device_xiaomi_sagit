@@ -24,6 +24,9 @@ $(call inherit-product, device/xiaomi/sagit/device.mk)
 # Inherit some common komodo stuff.
 $(call inherit-product, vendor/komodo/config/common_full_phone.mk)
 
+# Firmware
+$(call inherit-product, vendor/xiaomi/firmware/sagit/firmware.mk)
+
 PRODUCT_NAME := komodo_sagit
 PRODUCT_DEVICE := sagit
 PRODUCT_BRAND := Xiaomi
